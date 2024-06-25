@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbar-container {
+  background-color: rgb(25, 25, 162);
+  color: rgb(230, 178, 178);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-list {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(25, 25, 162);
+  display: flex;
+  justify-content: space-between;
+}

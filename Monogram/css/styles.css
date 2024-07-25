@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px !important;
+}
+
+.header-container {
+  max-width: 100%;
+  max-height: 100vh;
+  /* border: solid 4px red; */
+}
+
+.header-container img {
+  max-width: 100%;
+  max-height: 100vh;
+
+}
+
+

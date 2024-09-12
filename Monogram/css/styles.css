@@ -15,9 +15,11 @@
 }
 
 .header-container img {
+  width: 100%;
   max-width: 100%;
-  max-height: 100vh;
-
+  height: 62rem;
+  filter: brightness(0.4);
+  transform: scaleY(1.2);
 }
 
 

@@ -15,7 +15,7 @@
   
 } */
 
-.header-container img {
+.header-container .backdrop-image {
   width: 100%;
   max-width: 100%;
   height: 60rem;
@@ -43,4 +43,18 @@
 
 .header-headline p {
   font-size: 1.75rem;
+}
+
+.header-container .downward-indicator {
+  position: relative;
+  color: white;
+  left: 49%;
+  transition: transform 0.5s ease-in;
+
+}
+
+
+
+.header-container .downward-indicator:hover {
+  transform: scale(1.2);
 }

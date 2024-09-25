@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px !important;
+  font-family: prompt, sans-serif;
+}
+
+/* .header-container {
+  max-width: 100%;
+  max-height: 100vh;
+  
+} */
+
+.header-container .backdrop-image {
+  width: 100%;
+  max-width: 100%;
+  height: 60rem;
+  filter: brightness(0.4);
+  transform: scaleY(1.3);
+}
+
+
+
+.header-container .header-headline {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ecc2b6;
+  
+}
+
+.header-headline h1 {
+ font-size: 3.75rem;
+ letter-spacing: 4px;
+}
+
+.header-headline p {
+  font-size: 1.75rem;
+}
+
+.header-container .downward-indicator {
+  position: relative;
+  color: white;
+  left: 49%;
+  transition: transform 0.5s ease-in;
+
+}
+
+
+
+.header-container .downward-indicator:hover {
+  transform: scale(1.2);
+}

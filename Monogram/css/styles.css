@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  font-size: 1rem !important; 
+  font-size: 10px; 
   font-family: prompt, sans-serif;
 }
 .navbar-container {
@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   width: 98%;
-  padding: 0.5rem;  
+  padding: 0.25rem;  
   margin: 0 auto;
   z-index: 1000;
 }
@@ -28,16 +28,17 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 2rem;  
-  font-size: 0.9rem;  
+  font-size: 1.125rem;  
   margin-left: -2rem;  
   align-items: center;
 }
 .navbar-list li {
   margin: 0;
-  padding: 0;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
+  cursor: pointer;
+  letter-spacing: 3px;
 }
 .bi-bag {
   vertical-align: middle;
@@ -57,7 +58,7 @@
   display: none;
   position: absolute;
   background-color: white;
-  border: 0.1rem solid #ccc; 
+  border: 0.125rem solid #ccc; 
   z-index: 999;
   top: 100%; 
   right: 0;  
@@ -77,8 +78,8 @@
   color: white;
 }
 .currency-dropdown span {
-  font-size: 0.6rem;  
-  margin-left: 0.2rem;  
+  font-size: 0.625rem;  
+  margin-left: 0.25rem;  
   display: inline-block;
   vertical-align: middle;
 }

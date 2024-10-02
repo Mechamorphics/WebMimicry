@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --background-color: #f0efed;
+  --text-color-primary: #1a2456;
+  --text-color-secondary: #6c757d;
 }
 :root {
   font-size: 10px; 
@@ -131,12 +134,12 @@
 }
 
 main {
-  background-color: #f0efed;
+  background-color: var(--background-color);
 }
 
 .grid-module-cards img {
-  max-width: 33.5rem;
-  height: 33.5rem;
+  max-width: 33.625rem;
+  height: 32rem;
 }
 
 .grid-module-cards {
@@ -162,4 +165,11 @@ main {
   font-size: 1.75rem;
   font-weight: 600;
   letter-spacing: 0.25rem;
+  padding-right: 0.5rem;
+  color: var(--text-color-primary);
+}
+
+.module-card-info .price {
+  font-size: 1.5rem;
+  font-weight: 300;
 }

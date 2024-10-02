@@ -147,6 +147,17 @@ main {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-module-cards .grid-module-card {
+  max-width: 33.5rem;
+}
+
+.module-card-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .module-card-info .title {
   font-size: 1.75rem;
   font-weight: 600;

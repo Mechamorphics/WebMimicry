@@ -4,7 +4,8 @@
   box-sizing: border-box;
   --background-color: #f0efed;
   --text-color-primary: #1a2456;
-  --text-color-secondary: #6c757d;
+  --text-color-secondary: #e6b2b2;
+  --text-color-tertiary: #6c757d;
 }
 :root {
   font-size: 10px; 
@@ -16,7 +17,7 @@
   top: 2rem;  
   left: 0;
   right: 0;
-  color: rgb(230, 178, 178);
+  color: var(--text-color-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;

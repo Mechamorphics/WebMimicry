@@ -121,6 +121,7 @@
   position: relative;
   color: white;
   left: 49%;
+  bottom: 5%;
   transition: transform 0.5s ease-in;
 
 }
@@ -129,3 +130,25 @@
   transform: scale(1.2);
 }
 
+main {
+  background-color: #f0efed;
+}
+
+.grid-module-cards img {
+  max-width: 33.5rem;
+  height: 33.5rem;
+}
+
+.grid-module-cards {
+  padding: 12rem;
+  max-width: 100%;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.module-card-info .title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+}

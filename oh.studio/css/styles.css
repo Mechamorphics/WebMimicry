@@ -49,3 +49,12 @@ h1 {
   width: 45%;
   text-align: center;
 }
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+
+  span {
+    padding: 0 0.75rem;
+  }
+}

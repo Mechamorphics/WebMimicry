@@ -37,3 +37,15 @@ body {
   border-radius: 1rem;
   transition-duration: 200ms;
 }
+
+.about-me-bio {
+  display: flex;
+  justify-content: center;
+  margin-top: 13rem;
+}
+
+h1 {
+  font-size: 4rem;
+  width: 45%;
+  text-align: center;
+}

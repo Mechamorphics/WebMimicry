@@ -26,13 +26,14 @@ body {
   padding: 0 0.5rem;
 }
 
-.active-tab {
+.navbar-tab {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+}
+
+.navbar-tab.active-tab {
   background-color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 1rem;
-}
-
-.navbar-tab {
- cursor: pointer;
- padding: 0.5rem 1.5rem;
+  transition-duration: 200ms;
 }

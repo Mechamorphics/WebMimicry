@@ -15,8 +15,7 @@ body {
 
 .navbar-menu {
   background-color: #f4f2f2;
-  width: 20%;
-  height: 50px;
+  height: 3rem;
   position: relative;
   top: 1.5rem;
   border-radius: 1.5rem;
@@ -50,6 +49,14 @@ h1 {
   text-align: center;
 }
 
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 2.5rem;
+    width: 50%;
+  }
+  
+}
+
 .filter-container {
   display: flex;
   justify-content: center;
@@ -76,6 +83,33 @@ h1 {
   grid-template-rows: 1fr 1fr 1fr;
   margin: 2rem 3rem;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-grid-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: 1fr 1fr;
+    margin: 2rem 1rem;
+    width: 80%;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  .navbar-menu {
+    border-radius: 2rem;
+    height: 3rem;
+  }
+  .projects-grid-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin: 2rem 0.5rem;
+    width: 100%;
+  }
+  
 }
 
 .projects-container {
@@ -115,4 +149,16 @@ h1 {
 
 .contact-label-container .second-label {
   color: #7f7f7f;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  padding: 0 3rem 2rem 3rem;
+}
+
+.footer-container .social-links {
+  display: flex;
+  gap: 0.5rem;
 }

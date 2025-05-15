@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --background-color: #f0efed;
+  --text-color-primary: #1a2456;
+  --text-color-secondary: #e6b2b2;
+  --text-color-tertiary: #6c757d;
 }
 :root {
   font-size: 10px; 
@@ -13,7 +17,7 @@
   top: 2rem;  
   left: 0;
   right: 0;
-  color: rgb(230, 178, 178);
+  color: var(--text-color-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -121,6 +125,7 @@
   position: relative;
   color: white;
   left: 49%;
+  bottom: 5%;
   transition: transform 0.5s ease-in;
 
 }
@@ -129,3 +134,43 @@
   transform: scale(1.2);
 }
 
+main {
+  background-color: var(--background-color);
+}
+
+.grid-module-cards img {
+  max-width: 33.625rem;
+  height: 32rem;
+}
+
+.grid-module-cards {
+  padding: 12rem;
+  max-width: 100%;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-module-cards .grid-module-card {
+  max-width: 33.5rem;
+}
+
+.module-card-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.module-card-info .title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  padding-right: 0.5rem;
+  color: var(--text-color-primary);
+}
+
+.module-card-info .price {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
